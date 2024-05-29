@@ -1,0 +1,1034 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Nav-bar-sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.nav-bar {
+    background-color: #555555;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999999999999;
+}
+
+.nav-bar .nav-logo a {
+    text-decoration: none;
+    color: #ff305b;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.nav-bar .nav-list ul li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-bar .nav-list ul li {
+    padding: 3px 5px;
+    list-style-type: none;
+}
+
+.nav-bar .nav-list ul li a:hover {
+    color: #ff305b;
+}
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Nav-bar-sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of header-sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+.header
+ {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(../imgs/slider-02.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header .header-cap {
+
+    text-align: center;
+    color: white;
+}
+
+.header-cap h1 {
+    color: #ff305b;
+}
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of header-sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of About-sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+ .container
+{
+    width: 90%;
+    margin: auto;
+    padding: 50px 0px;
+}
+
+
+.about-sec .container .img img
+{
+   
+    width: 100%;
+    border-radius: 7px;
+    
+}
+
+.about-sec .container .img
+{
+   
+    position: relative;
+    overflow: hidden;
+
+}
+.about-sec .container .img:hover .layer
+{
+top: 0;
+}
+.about-sec .container .img .layer
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+
+
+}
+.about-sec .container .img .layer .fa-brands
+{
+    padding: 0 10px;
+}
+.about-sec .container .img .layer .fa-brands:hover
+{
+    color: red;
+}
+.about-sec .container .about-cap
+{
+    color: #555555;
+}
+
+.about-sec .container .about-cap h2 {
+    position: relative;
+    margin-left: 13px;
+    color: black;
+}
+
+.about-sec .container .about-cap h2::before {
+    content: "";
+    width: 4px;
+    height: 25px;
+    background-color: ff305b;
+    position: absolute;
+    left: -10px;
+}
+
+.about-sec .container .about-cap p {
+    position: relative;
+
+}
+
+
+.about-sec .container .about-cap ul li {
+    list-style-type: none;
+}
+
+.about-sec .container .about-cap button {
+    padding: 15px 20px;
+    border: 1px solid;
+    background-color: #ff305b;
+    border-radius: 7px;
+    color: #FFFF;
+    margin: 0px 7px;
+}
+
+.about-sec .container .about-cap button:hover {
+    background-color: red;
+}
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of About-sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Our-services sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+    .our-services
+    {
+        background-color: #f8f8f8;
+        text-align: center;
+    }
+
+
+      .style
+    {
+        background-color: red;
+        width: 200px;
+        height: 1px;
+        margin:  20px auto;
+        position: relative;
+    }
+      .style::after
+    {
+        position: absolute;
+        content: "";
+        width: 130px;
+        height: 1px;
+        background-color: red;
+        top:400%;
+        left: 17%;
+
+        
+    }
+      .style::before
+    {
+        position: absolute;
+        content: "";
+        width: 130px;
+        height: 1px;
+        background-color: red;
+        bottom:400%;
+        left: 17%;
+
+        
+    }
+    .our-services .container
+    {
+    width: 90%;
+    margin: auto;
+    padding: 50px 0px;
+
+
+    }
+    .our-services .container .item:hover
+    {
+        border:  1px white;
+        background-color: white;
+    }
+
+    .our-services .container .item:hover .fa-solid 
+    {
+        transform: scale(1.3)
+    }
+
+    .our-services .container .item
+    {
+        padding: 35px 25px;
+        color: #555555;
+        transition: border 1s;
+      
+    }
+
+    .our-services .container .item  .fa-solid 
+    {
+        color: red;
+        font-size: 30px; 
+        transition: transform, 1s;
+    }
+    .services-head
+    {
+        padding: 30px 0px;
+      
+    }
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Our-services sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>   Start of Our-portfilo sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+    .our-portfolio .portfolio-head
+    {
+        text-align: center;
+    }
+    .our-portfolio .portfolio-head .cap
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .our-portfolio .portfolio-head .cap h4
+    {
+        padding: 0px 10px;
+    }
+    .our-portfolio .portfolio-head .cap h4:hover
+    {
+        color: red;
+    }
+    .our-portfolio .container .item
+    {
+        padding: 15px 15px;
+        
+        
+    }
+    .our-portfolio .container .item .inner 
+    {
+        position: relative;
+    }
+    .our-portfolio .container .item img
+    {
+        width: 100%;
+    }
+    .our-portfolio .container .item:hover .layer
+    {
+        top:0;
+    }
+    .our-portfolio .container .item .layer
+    {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.7);
+        top: 100%;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transition: 20ms ;
+        
+    }
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    End of Our-portfilo sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    start of clients- sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    .clients .clients-head 
+    {
+        text-align: center;
+        
+    }
+    .clients .container .item
+    {
+        background-color: f8f8f8;
+        padding: 60px 0;
+        border: solid 10px f8f8f8 ;
+        border-radius: 7px;
+        position: relative;
+
+    }
+    .clients .container .item .img 
+    {
+     
+        display: flex;
+        justify-content: center;
+       
+       
+    }
+    .clients .container .item .img  img
+    {
+     border-radius: 50%;  
+     border: solid 1px transparent;
+  
+    }
+
+    .clients .container .item .item-cap .cap-icon
+    {
+        display: flex;
+    }
+    .clients .container .item .item-cap  p 
+    {
+        margin-left: 5px;
+        color: #777777;
+    }
+    .clients .container .item .item-cap P .fa-solid
+    {
+        font-size: 18px;
+        color: #777777;
+    }
+    .clients .container .item .item-cap .icons
+    {
+        color: #f1c30d;
+    }
+    .clients .container .item .inner
+    {
+        border: solid 100px red;
+        border-color: #ff305b transparent transparent #ff305b ;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    End of of clients- sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    Start of our-blog sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.our-blog
+{
+    background-color: #f8f8f8;
+}
+
+.our-blog .blog-head
+{
+    text-align: center;
+   
+    padding-top: 30px;
+}
+.our-blog .container .item 
+{
+    border: solid 1px transparent;
+    border-radius: 7px;
+   padding-bottom: 30px; ;
+   margin-bottom: 20px;
+   background-color: #ffffff;
+}
+.our-blog .container .item .img img
+{
+    width: 100%;
+}
+.our-blog .container .item .item-cap
+{
+    margin-left: 10px;
+    padding: 20px 20px ;
+}
+.our-blog .container .item .item-cap h3
+{
+    color: #333333;
+}
+.our-blog .container .item .item-cap h3:hover
+{
+    color: #ff305b;
+}
+.our-blog .container .item .item-cap p
+{
+    color: #555555;
+}
+.our-blog .container .item .item-cap a
+{
+    color: #333333;
+    text-decoration: none;
+}
+.our-blog .container .item .item-cap a:hover
+{
+    color: #ff305b;
+}
+
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    End  of our-blog sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+   
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    Start of contact sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    
+.contact-us .contact-head
+{
+    text-align: center;
+    
+}
+
+.contact-us .container
+{
+    
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-us .container .input
+{
+padding: 10px 10px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.contact-us .container button
+{
+    padding: 10px 10px ;
+    border-radius: 7px;
+    background-color: #ff305b;
+    color: white;
+}
+.contact-us .container button:hover
+{
+    background-color: red;
+}
+
+
+
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    End of contact sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+   
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    START of Fotter  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    .fotter
+    {
+        background-color: #333333;
+      
+    }
+    .fotter .hady 
+    {
+ 
+        width: 90%;
+        margin: auto;
+        color: #ff305b;
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .fotter .hady img 
+    {
+        
+        width: 50%;
+    }
+
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    End of fotter  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+   
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Media-Qyery  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+@media screen and (min-width :500px) and (max-width :768px) 
+{
+
+}
+
+@media screen and (min-width :769px) and (max-width :1024px) {
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Nav-bar sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-bar .nav-logo {
+        margin-top: 10px;
+
+
+    }
+
+    .nav-bar .nav-list ul {
+        display: flex;
+    }
+
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Nav-bar sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     start of header sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    .header .header-cap {
+
+        font-size: 30px;
+    }
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of header sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of About sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+     .container 
+    {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .about-sec .container .img img
+    {
+        height: 100%;
+        object-fit: cover;
+    }
+
+
+    .about-sec .container .about-cap
+    {
+        
+        padding: 0px 20px;
+    }
+    .about-sec .container .about-cap button
+    {
+        padding: 10px 10px ;
+    }
+
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of About sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Our-services sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+ .container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Our-services sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of clients sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.clients .container .item
+{
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    display: flex;
+}
+.clients .container .item .img 
+{
+    z-index: 1;
+    margin: 10px 50px;
+   
+
+}
+.clients .container .item .item-cap
+{
+
+    justify-self: center;
+}
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of clints sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    Start of blog sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+.our-blog .container 
+    {
+       
+        flex-wrap: nowrap;
+        gap: 15px;
+    }
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End  of blog sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     start  of contact sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+        .contact-us .container
+        {
+            
+            flex-direction: row;
+            gap: 20px;
+           
+        }
+        .contact-us .container .input-3 , .input-4
+        {
+            width: 100%;
+        }
+        .contact-us .container .input-1 , .input-2
+        {
+            width: 45%;
+        }
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End  of contact sec   <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+
+}
+
+@media screen and (min-width :1025px) and (max-width :1280px) {
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Nav-bar sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-bar .nav-logo {
+        margin-top: 10px;
+
+
+    }
+
+    .nav-bar .nav-list ul {
+        display: flex;
+    }
+
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Nav-bar sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     start of header sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    .header .header-cap {
+
+        font-size: 30px;
+    }
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of header sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of About sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.about-sec .container
+{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+  
+
+}
+
+.about-sec .container .img 
+{
+    border-radius: 7px;
+    position: relative;
+ 
+    top: 30px;
+    left: 30px;
+
+}
+.about-sec .container .border
+{
+    border: solid 10px #555555;
+    border-radius: 7px;
+    width: 30%;
+   
+    
+}
+.about-sec .container .img img
+{
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+
+
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of About sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Our-services sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Our-services sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+  /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of clients sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.clients .container .item
+{
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    display: flex;
+}
+.clients .container .item .img 
+{
+    z-index: 1;
+    margin: 10px 50px;
+   
+
+}
+.clients .container .item .item-cap
+{
+
+    justify-self: center;
+}
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of clints sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    Start of blog sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+.our-blog .container 
+    {
+       
+        flex-wrap: nowrap;
+        gap: 15px;
+    }
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End  of blog sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     start  of contact sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.contact-us .container
+{
+    
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.contact-us .container .input-3 , .input-4
+{
+    width: 100%;
+}
+.contact-us .container .input-1 , .input-2
+{
+    width: 45%;
+}
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End  of contact sec   <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+
+
+
+
+}
+
+@media screen and (min-width :1281px) and (max-width :1920px) {
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Nav-bar sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-bar .nav-logo {
+        margin-top: 10px;
+
+
+    }
+
+    .nav-bar .nav-list ul {
+        display: flex;
+    }
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Nav-bar sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     start of header sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    .header .header-cap {
+
+        font-size: 30px;
+    }
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of header sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+   /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of About sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.about-sec .container
+{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+
+}
+
+.about-sec .container .img 
+{
+    border-radius: 7px;
+    position: relative;
+ 
+    top: 30px;
+    left: 30px;
+
+}
+.about-sec .container .border
+{
+    border: solid 10px #555555;
+    border-radius: 7px;
+    width: 30%;
+   
+    
+}
+.about-sec .container .img img
+{
+    height: 100%;
+    object-fit: cover;
+  
+}
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of About sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of Our-services sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+ .container
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Our-services sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+
+  /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     Start of clients sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.clients .container .item
+{
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    display: flex;
+}
+.clients .container .item .img 
+{
+    z-index: 1;
+    margin: 10px 50px;
+   
+
+}
+.clients .container .item .item-cap
+{
+
+    justify-self: center;
+}
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of clints sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>    Start of blog sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+.our-blog .container 
+    {
+       
+        flex-wrap: nowrap;
+        gap: 15px;
+    }
+
+
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End  of blog sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+    /* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     start  of contact sec  <<<<<<<<<<<<<<<<<<<<<<<
+*/
+.contact-us .container
+{
+    
+    flex-direction: row;
+    gap: 20px;
+   
+}
+.contact-us .container .input-3 , .input-4
+{
+    width: 70%;
+}
+.contact-us .container .input-1 , .input-2
+{
+    width: 45%;
+}
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End  of contact sec   <<<<<<<<<<<<<<<<<<<<<<<
+*/
+
+
+
+
+
+
+
+}
+
+
+/* 
+>>>>>>>>>>>>>>>>>>>>>>>>>     End of Media-Qyery  <<<<<<<<<<<<<<<<<<<<<<<
+*/
